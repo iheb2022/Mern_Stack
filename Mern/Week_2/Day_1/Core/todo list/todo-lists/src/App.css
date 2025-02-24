@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-outline-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+.container .d-flex {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input{
+  height: 20px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+

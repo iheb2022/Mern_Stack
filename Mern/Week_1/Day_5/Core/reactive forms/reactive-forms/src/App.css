@@ -1,0 +1,27 @@
+.form{
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label{
+  background-color: rgb(110, 107, 107);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.label p{
+  color: rgb(140, 3, 3);
+}
+button{
+  width: 300px;
+  background-color: antiquewhite;
+}
